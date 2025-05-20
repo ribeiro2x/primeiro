@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Oi, Meu bem! 💖</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(to right, #ac1ffe, #d0a6f7);
+      text-align: center;
+      padding: 20px;
+      margin: 0;
+    }
+  
+    .questionario {
+      margin-top: 30px;
+    }
+
+    .pergunta {
+      background-color: #fff0f5;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 15px auto;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+      animation: floatCard 3s ease-in-out infinite;
+      transition: transform 0.2s ease;
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+
+    .pergunta:hover {
+      transform: scale(1.05);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      color: #d63384;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      border: 1px solid #ffa6c9;
+      font-size: 1em;
+      background-color: #fff;
+    }
+
+    @keyframes floatCard {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+      100% { transform: translateY(0); }
+    }
+
+    /* GALERIA DE FOTOS */
+
+    .galeria {
+      margin-top: 50px;
+    }
+
+    .galeria h2 {
+      color: #ffffff;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .foto {
+      display: inline-block;
+      margin: 10px;
+      width: 250px;
+      height: 250px;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.2);
+      animation: floatCard 3s ease-in-out infinite;
+      transition: transform 0.2s ease;
+      perspective: 1000px;
+    }
+
+    .foto img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    h2{
+      color: #ffffff;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+  
+
+  </style>
+</head>
+<body>
+
+
+  <div class="questionario">
+    <h2>Mini Questionário 💌</h2>
+    
+
+    <div class="pergunta card">
+      <label>1. Quando foi que começamos a conversar?</label>
+      <input type="text" placeholder="Escreve aqui, amor ❤️">
+    </div>
+
+    <div class="pergunta card">
+      <label>2. No Nosso Primeiro Encontro O que eu levei pra sua mãe?</label>
+      <input type="text" placeholder="Escreve aqui, amor ❤️">
+    </div>
+
+    <div class="pergunta card">
+      <label>3. Quando você percebeu que estava apaixonada por mim?</label>
+      <input type="text" placeholder="Escreve aqui, amor ❤️">
+    </div>
+
+    <div class="pergunta card">
+      <label>4. Se fôssemos viajar agora, pra onde você iria comigo?</label>
+      <textarea rows="2" placeholder="Escreve aqui, amor ❤️"></textarea>
+    </div>
+  </div>
+
+  <!-- GALERIA DE FOTOS -->
+  <div class="galeria">
+    <h2>Nossos Momentos 💞</h2>
+
+    <div class="foto card">
+      <img src="https://scontent-gru2-2.xx.fbcdn.net/v/t1.15752-9/494576925_621675900895975_1988782145484679692_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=tRLftwVuTKsQ7kNvwGao7fZ&_nc_oc=Admxhb1BCGEiye3bZhyL_AzXsnrJzxNXSexyzddWz9gIk0qgt3RFyXB5ieh3CuZknf8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&oh=03_Q7cD2QHrgRIC8BSL6PXXiW7LlQVEm8FtmQHzWzT68VFG5aSl_Q&oe=68533EE9https://scontent-gru2-2.xx.fbcdn.net/v/t1.15752-9/494576925_621675900895975_1988782145484679692_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=0024fc&_nc_ohc=tRLftwVuTKsQ7kNvwGao7fZ&_nc_oc=Admxhb1BCGEiye3bZhyL_AzXsnrJzxNXSexyzddWz9gIk0qgt3RFyXB5ieh3CuZknf8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru2-2.xx&oh=03_Q7cD2QHrgRIC8BSL6PXXiW7LlQVEm8FtmQHzWzT68VFG5aSl_Q&oe=68533EE9" alt="Foto 1 nossa">
+    </div>
+
+    <div class="foto card">
+      <img src="https://scontent-gru1-2.xx.fbcdn.net/v/t1.15752-9/494576490_980418167274792_1983337306875134440_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=0024fc&_nc_ohc=SYQoqTZU4aMQ7kNvwFNDoPP&_nc_oc=AdllLT7u4tx4-e_0BFbF8S7ShsPp1K0HMUqNwPqqL2m1aqETpWvOdha43EniNE1nglM&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru1-2.xx&oh=03_Q7cD2QFAWH9YKggtD8qnXDFgXEanX0-TWl8QYvs9J0tHl4fSng&oe=6853288F" alt="Foto 2 nossa">
+    </div>
+
+    <div class="foto card">
+      <img src="https://scontent-gru2-1.xx.fbcdn.net/v/t1.15752-9/494575706_1050299473723121_5955845103570141630_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=jzRPk9May7wQ7kNvwE1gXcm&_nc_oc=Adkbx8GI0deon37kznnPKqTcjnjCaRZVxNsAK2dOHxeZMjOCj_n1rj1bM3jvViQFJ_0&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-gru2-1.xx&oh=03_Q7cD2QEPGQraTimSQn5_B73mlMAFYru_dLqmK0CLGobYHV41Hg&oe=68531314" alt="Foto 3 nossa">
+    </div>
+  </div>
+
+  <!-- EFEITO 3D COM MOUSE -->
+  <script>
+    document.querySelectorAll('.card').forEach(card => {
+      card.addEventListener('mousemove', e => {
+        const rect = card.getBoundingClientRect();
+        const x = e.clientX - rect.left - rect.width / 2;
+        const y = e.clientY - rect.top - rect.height / 2;
+
+        const rotateX = (y / 20).toFixed(2);
+        const rotateY = (-x / 20).toFixed(2);
+
+        card.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      });
+
+      card.addEventListener('mouseleave', () => {
+        card.style.transform = 'rotateX(0deg) rotateY(0deg)';
+      });
+    });
+  </script>
+
+</body>
+</html>
